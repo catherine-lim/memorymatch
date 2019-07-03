@@ -1,1 +1,47 @@
+body{
+  height: 100vh;
+  background-color: bisque;
+}
+header {
+  font-size: 50px;
+  border: 2px solid black;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+aside{
+  height: 50%;
+ width: 15%;
+  font-size: 20px;
+ text-align: center;
+ border: 1px solid black;
+ margin: 5px;
+ padding: 20px;
+ display: inline-block;
 
+}
+.sidebar{
+ border: 1px solid black;
+padding: 10px;
+background-color: lightskyblue;
+}
+main{
+  display: inline-block;
+  height: 100%;
+  width:70%;
+  position: absolute;
+
+}
+.container{
+ height: 70%;
+ width:70%;
+ border: 1px solid black;
+
+}
+.card {
+ width: 15%;
+ height: 20%;
+ background-color: black;
+display: inline-block;
+
+}
