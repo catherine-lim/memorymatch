@@ -1,15 +1,15 @@
-/* $(document).ready(initializeApp);
-
+$(document).ready(initializeApp);
 
 
 function initializeApp(){
-  $('.card').on('click', )  //$('.card').flip()
+  // $('.card').addClass(".cardback");
+  $('.lfz-card').on('click', handleCardClick) ; //$('.card').flip()
 
-
-  );
 
 }
 
 function handleCardClick(event){
+  ($(event.currentTarget)).addClass('hidden');
 
-} */
+
+}
