@@ -29,7 +29,7 @@ background-color: lightskyblue;
 main{
   display: inline-block;
   height: 100%;
-  width:100%;
+  width:80%;
   position: absolute;
 border: 1px solid black;
 }
@@ -62,22 +62,30 @@ top: 0;
 background-image: url("../images/lfz-card.jpg");
 z-index: 1;
 }
-
 .dan{
 background-image: url("../images/dan.jpg");
 }
-
-
 .scott{
 background-image: url("../images/scott.jpg");
 }
 
+.bill{
+background-image: url("../images/bill.jpg");
+}
+.cody{
+background-image: url("../images/cody.jpg");
+}
+.tim-h{
+background-image: url("../images/tim-h.jpg");
+}
+.tim-d{
+background-image: url("../images/tim-d.jpg");
+}
 
 
+.modal-content{
 
-
-
-
+}
 
 .hidden{
   display: none;
