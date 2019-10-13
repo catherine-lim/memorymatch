@@ -38,11 +38,11 @@ function handleCardClick(event){
     }
 }
 
-function cardFlipOver() {
-  firstCardClicked.find('.lfz-card').removeClass('hidden');
-  secondCardClicked.find('.lfz-card').removeClass('hidden');
+// function cardFlipOver() {
+//   firstCardClicked.find('.lfz-card').removeClass('hidden');
+//   secondCardClicked.find('.lfz-card').removeClass('hidden');
 
-}
+// }
 }
 
 /* if (matches === max_mathces){

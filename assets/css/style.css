@@ -48,15 +48,14 @@ border: 2px solid black;
   height: 33.3vh;
 }
 
-/* .lfz-card, .instructor-image {
+.lfz-card, .instructor-image, .dan, .scott, .bill , .cody, .tim-d, .tim-h , .brett{
 height: 100%;
 width: 100%;
 position: absolute;
 background-size: cover;
 background-position: center;
-left: 0;
-top: 0;
-} */
+
+}
 
 .lfz-card{
 background-image: url("../images/lfz-card.jpg");
@@ -81,5 +80,11 @@ background-image: url("../images/tim-h.jpg");
 .tim-d{
 background-image: url("../images/tim-d.jpg");
 }
+.brett{
+  background-image: url("../images/brett.jpg");
+  }
 
+.hidden{
+    display: none;
+  }
 
