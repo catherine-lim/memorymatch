@@ -19,27 +19,30 @@ header {
     color: black;
    
 }
-.statheader {
-    padding: 60px;
+/* .statHeader {
+    padding: 5px;
     text-align: center;
     position: relative;
-}
+} */
 .stats-area {
     margin: 0 auto;
     width: 85%;
     font-size:0;
     position: absolute;
-    top: 50%;
+    text-align: center;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    
    
 }
 .stats-area > * {
     font-size: 1rem;
 }
 .stats-area > div {
-    width: 10%;
+    width: 15%;
     display: inline-block;
+
 }
 
 .modal {
@@ -69,34 +72,10 @@ main {
     display: flex;
     height: 100%;
     width: 100%;
-    margin: 0 auto;
-    justify-content: center;
+    margin: auto;
+    padding: 0;
+    /* justify-content: center; */
 }
-
-/* aside {
-    height: 100vh;
-    width: 16%;
-    margin: auto 2px auto 2px;
-    
-}
-
-.statstitle {
-    text-align: center;
-    margin: 10px auto auto auto
-}
-
-.sidebar {
-    background-color: rgb(168, 176, 180);
-    height: 12%;
-    width: 80%;
-    margin: 4px auto auto auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 70%;
-    line-height: 12%;
-} */
-
 
 
 .row1, .row2, .row3 {
@@ -105,6 +84,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+   
     
 }
 
@@ -114,6 +94,7 @@ main {
     width: 19%;
     height: 68%;
     margin: 1px 2px 1px 2px;
+ 
     
 }
 .lfz-card, .linkedin, .twitter, .facebook, .insta, .youtube , .line, .kakao, .whtsapp , .snapchat{
@@ -121,10 +102,7 @@ main {
     width: 100%;
     position: absolute;
     background-size: cover;
-    background-position: center;
-
-
-    
+    background-position: center;   
 }
     
 .lfz-card{
@@ -159,6 +137,8 @@ background-image: url("../images/kakao.png");
 .twitter{
 background-image: url("../images/twitter.jpeg");
 }
+
 .hidden {
     display: none;
+
 }
