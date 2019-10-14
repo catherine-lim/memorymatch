@@ -62,7 +62,7 @@ function handleCardClick(event) {
           secondCardClicked.find(".lfz-card").removeClass("hidden");
           firstCardClicked = null;
           secondCardClicked = null;
-          }, 1500)  
+          }, 1000)  
       }
       attempts++
       displayStats();
@@ -76,18 +76,21 @@ function winCondition(matches) {
   }
 }
 
-function calculateAccuracy () {
-  var accuracy = Math.floor(matches/attempts * 100) + " % ";
-  return accuracy;
+function calculateAccuracy(){
+  var accuracy = Math.floor(matches/attempts*100);
+  if (isNaN(accuracy)) {
+    accuracy = 0
+  }
+  return accuracy + "%" ;
 }
 
-function displayStats () {
+function displayStats(){
   $(".accuracy").text(calculateAccuracy());
-  $(".games_played").text(games_played);
+  $(".games-played").text(games_played);
   $(".attempts").text(attempts);
 }
 
-function resetStats() {
+function resetStats(){
   matches = null;
   attempts = 0;
   games_played++;

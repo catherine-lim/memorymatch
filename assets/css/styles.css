@@ -1,52 +1,79 @@
 body {
-    background-color: rgb(154, 230, 13);
+    background-color: rgb(178, 201, 245);
     background-position: center;
     background-size: cover;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+ 
 }
 
-header {
-    border: solid 2px black;
+header { 
     font-size: 40px;
     font-weight: bold;
     text-align: center;
     height: 10vh;
     width: 100%;
     color: black;
+   
+}
+.statheader {
+    padding: 60px;
+    text-align: center;
+    position: relative;
+}
+.stats-area {
+    margin: 0 auto;
+    width: 85%;
+    font-size:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.stats-area > * {
+    font-size: 1rem;
+}
+.stats-area > div {
+    width: 10%;
+    display: inline-block;
 }
 
 .modal {
-    background-color: rgb(15, 202, 235);
-    background-position: center;
-    background-size: cover;
+    background-color: rgb(2, 12, 29);
     position: fixed;
     z-index: 3;
     left: 40%;
     top: 20%;
-    width: 15%;
-    height: 15%;
-    border: solid 3px black;
-    color:black;
+    width: 10%;
+    height: 10%;
+    /* border: solid 3px black;
+    color:black; */
 }
 
 .modal-content {
-    margin: 40% auto;
-    /* padding: 20px;
-    width: 60%; */
+    /* margin: 40% auto;
+    padding: 20px; */
+    width: 60%;
     text-align: center;
     color: rgb(115, 146, 28);
 }
-
+main {
+    height: 100vh;
+    width: 100vw;
+}
 .game {
     display: flex;
     height: 100%;
     width: 100%;
+    margin: 0 auto;
+    justify-content: center;
 }
 
-aside {
-    border: solid 1px black;
+/* aside {
     height: 100vh;
     width: 16%;
     margin: auto 2px auto 2px;
@@ -59,8 +86,7 @@ aside {
 }
 
 .sidebar {
-    border: solid 1px black;
-    background-color: lightblue;
+    background-color: rgb(168, 176, 180);
     height: 12%;
     width: 80%;
     margin: 4px auto auto auto;
@@ -69,14 +95,9 @@ aside {
     justify-content: center;
     font-size: 70%;
     line-height: 12%;
-}
+} */
 
-.container {
-    border: solid 1px black;
-    height: 100vh;
-    width: 75%;
-    margin: none;
-}
+
 
 .row1, .row2, .row3 {
     height: 33%;
@@ -84,14 +105,16 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .card {
-    background-color: black;
+    background-color: rgb(178, 201, 245);
     position: relative;
-    width: 14%;
-    height: 90%;
+    width: 19%;
+    height: 68%;
     margin: 1px 2px 1px 2px;
+    
 }
 .lfz-card, .linkedin, .twitter, .facebook, .insta, .youtube , .line, .kakao, .whtsapp , .snapchat{
     height: 100%;
@@ -99,6 +122,8 @@ aside {
     position: absolute;
     background-size: cover;
     background-position: center;
+
+
     
 }
     
