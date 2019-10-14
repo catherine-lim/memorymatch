@@ -52,7 +52,6 @@ function handleCardClick(event) {
       $(event.currentTarget).find(".lfz-card").addClass("hidden")
 
       if (firstCardClicked.find(".back").css("background-image") === secondCardClicked.find(".back").css("background-image")) {
-          console.log('cards match');
           firstCardClicked = null;
           secondCardClicked = null;
           matches++;
@@ -72,19 +71,19 @@ function handleCardClick(event) {
 
 function winCondition(matches) {
   if (matches === max_matches) {
-      $("#myModal").removeClass("hidden");
+      $("#theModal").removeClass("hidden");
       $(".restart").on("click", resetStats)
   }
 }
 
 function calculateAccuracy () {
-  var accuracy = Math.floor(matches/attempts*100) + "%";
+  var accuracy = Math.floor(matches/attempts * 100) + " % ";
   return accuracy;
 }
 
 function displayStats () {
   $(".accuracy").text(calculateAccuracy());
-  $(".games-played").text(games_played);
+  $(".games_played").text(games_played);
   $(".attempts").text(attempts);
 }
 
@@ -94,5 +93,5 @@ function resetStats() {
   games_played++;
   displayStats();
   $(".lfz-card").removeClass("hidden");
-  $('#myModal').addClass("hidden");
+  $('#theModal').addClass("hidden");
 } 
