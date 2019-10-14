@@ -87,7 +87,6 @@ aside {
 }
 
 .card {
-    background-image: contain;
     background-color: black;
     position: relative;
     width: 14%;
