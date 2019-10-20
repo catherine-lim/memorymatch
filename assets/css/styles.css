@@ -54,21 +54,20 @@ main {
 .game {
     display: flex;
     height: 100%;
-    width: 100%;   
+    width: 100%; 
+    margin: 20px;  
 
 }
 
-.row1, .row2, .row3 {
+.row1{
     height: 28%;
     width: 100%;
-    display: flex;
+    float: left;
     align-items: center;
     justify-content: center;
     margin:0;
     
 }
-
-
 .card {
     display:inline-block;
     border: 1px solid white;
@@ -132,33 +131,33 @@ background-image: url("../images/twitter.jpeg");
 
 .hidden {
     display: none;
-
 }
 
-/* media queries */
-/* @media screen and (max-width: 1024px) {
-    .stats-area {
-        width: 100%;
-    }
-   
-} */
 /* ipad portrait */
 @media screen and (min-width: 668px) and (max-width: 768px) {
     .stats-area {
-        width: 110%;
+        width: 98%;
         font-size: 19px;;
     }
     .stats-area > div {
         width: 13%;
         display: inline-block;  
     }
-    .card {
-        width: 16.33%;
-        height: 40%;
-    }
-    .row1, .row2, .row3 {
+    .game {
+        display: flex;
+        height: 96%;
         width: 100%;
-        height: 30%;
+        margin: 21px;
+        padding:13px;
+    }
+    .card {
+        justify-content: center;
+        width: 27.33%;
+        height: 42%;
+    }
+    .row1 {
+        width: 100%;
+        height: 32%;
     }
     .modal {
         background-color: rgb(81, 110, 161);
@@ -189,17 +188,21 @@ background-image: url("../images/twitter.jpeg");
     .stats-area{
         font-size: 10px;
     }
+    .game {
+        width: 94%;
+        margin: 10px;
+    }
     .card {
         width: 28.33%;
         height: 26%;
         padding: 4px;
         display:inline-block;
     }
-    /* .row1, .row2, .row3 {
-        width: 95%;
-        height: 29%;
+    .row1{
+        width: 100%;
+        height: 43%;
         padding: 0;
-    } */
+    }
     .modal{
         background-color: rgb(81, 110, 161);
         position: fixed;
@@ -215,16 +218,23 @@ background-image: url("../images/twitter.jpeg");
     }
 }
 /* iphoneX portrait */
-/* @media screen and (max-width: 375px) and (max-height: 812px) {
-    .stats-area > * {
-        font-size: 8px;
+@media screen and (max-width: 375px) and (min-height: 812px) {
+    header{
+        font-size: 30px;
+    }
+    .stats-area{
+        font-size: 15px;
     }
     .card {
-        width: 13.33%;
-        height: 21%;
+        width: 25.33%;
+        height: 26%;
         padding: 4px;
     }
-    .row1, .row2, .row3 {
+    .game {
+        width: 93%;
+        margin: 20px;
+    }
+    .row1 {
         width: 98%;
         height: 29%;
         padding: 0;
@@ -244,25 +254,31 @@ background-image: url("../images/twitter.jpeg");
         color: rgb(115, 146, 28);
         
     }
-} */
+}
 
 /* ipad landscape */
 @media screen and (min-width: 1024px) and (max-height: 768px) {
     .stats-area  {
         display: inline-block;
-        font-size: 13px;
+        font-size: 15px;
         margin: -34px auto;
-        width: 105%;
+        width: 100%;
     }
-    .row1, .row2, .row3 {
-    width: 100%;
-    height: 29%;
+    .row1 {
+    width: 104%;
+    height: 31%;
 }
 }
 /* iphone landscape */
 @media screen and (min-width: 667px) and (max-height: 375px) {
     header{
         font-size: 20px;
+    }
+    .game {
+        display: flex;
+        height: 100%;
+        width: 93%;
+        margin: 20px;
     }
     .stats-area{
         font-size: 15px;
@@ -272,9 +288,9 @@ background-image: url("../images/twitter.jpeg");
         height: 120px;
         width:150px;
     }
-    .row1, .row2, .row3 {
-        width: 95%;
-        height: 26%;
+    .row1{
+        width: 103%;
+        height: 29%;
         padding: 0;
     } 
 }
