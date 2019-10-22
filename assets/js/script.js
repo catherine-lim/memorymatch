@@ -10,39 +10,11 @@ var games_played = 1;
 var attempts = 0;
 
 function initializeApp(){
-  // $('.lfz-card').on('click', handleCardClick) ; //$('.card').flip()
   $('.card').on('click', handleCardClick);
 
 }
 
-// function handleCardClick(event){
-//   $(event.target).addClass('hidden');
-//   //$(this).addClass('hidden');
-
-//   if (firstCardClicked === null){
-//     firstCardClicked = $(event.currentTarget);
-//     firstImage = $(firstCardClicked).find('.instructor-image').css('background-image')
-//     console.log(firstImage);
-
-
-//   } else {
-//     secondCardClicked = $(event.currentTarget);
-//     secondImage = $(secondCardClicked).find('.instructor-image').css('background-image')
-//     console.log(secondImage);
-
-
-//     if (firstImage !== secondImage){
-//       setTimeout(cardFlipOver, 300);
-
-//     } else if (firstImage === secondImage) {
-//       console.log('cards match');
-//       matches++;
-//     }
-// }
-// }
-
 function handleCardClick(event) {
-  // $(event.currentTarget).find(".lfz-card").addClass("hidden")
   if (firstCardClicked === null) {
       firstCardClicked = $(event.currentTarget);
       $(event.currentTarget).find(".lfz-card").addClass("hidden")
