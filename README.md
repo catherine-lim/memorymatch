@@ -4,10 +4,11 @@
 <details>
 <summary> &#8592; Click arrow for details</summary>
 
+Matching card game made with Javascript, jQuery, HTML, and CSS
+
 1. Memory match is a matching game in which a player attempts to match the images contained on "playing cards".
 2. There are a total of 18 cards:
-    - Each card contains 1 of 9 images
-    - There are two of each image allowing for 9 total matches
+    
 3. The following stats are tracked:
     - Total number of games played
     - Total number of matches for the current game
@@ -29,16 +30,7 @@
 9. Once all 9 cards have been matched:
     - A modal is shown to the player telling them they have won.
     - A button is provided which can reset the game by clicking on it.
-10. Resetting the game performs the following actions:
-    - All cards are flipped back over
-    - The number of games played is increased
-    - The total number of matches are reset
-    - The accuracy percentage is reset to 0%
-11. For a bonus challenge in the initial build
-    - Create the cards dynamically
-    - Shuffle the cards every time the game is reset
-    - DO NOT PERFORM THIS PRIOR TO THE COMPLETION OF MVP
-        - The "boss" will not be happy...
+
 </details>
 
 ### Project Setup
