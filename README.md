@@ -4,8 +4,6 @@
 <details>
 <summary> &#8592; Click arrow for details</summary>
 
-Matching card game made with Javascript, jQuery, HTML, and CSS
-
 1. Memory match is a matching game in which a player attempts to match the images contained on "playing cards".
 2. There are a total of 18 cards:
     
@@ -34,4 +32,5 @@ Matching card game made with Javascript, jQuery, HTML, and CSS
 </details>
 
 ### Project Setup
+Matching card game made with Javascript, jQuery, HTML, and CSS
 
