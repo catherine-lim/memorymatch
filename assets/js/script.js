@@ -11,7 +11,6 @@ var attempts = 0;
 
 function initializeApp(){
   $('.card').on('click', handleCardClick);
-
 }
 
 function handleCardClick(event) {
