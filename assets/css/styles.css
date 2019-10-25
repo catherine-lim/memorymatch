@@ -227,7 +227,7 @@ background-image: url("../images/twitter.jpeg");
     }
 }
 /* iphoneX portrait */
-@media screen and (max-width: 375px) and (min-height: 812px) {
+@media screen and (max-width: 667px) and (min-height: 812px) {
     header{
         font-size: 30px;
     }
